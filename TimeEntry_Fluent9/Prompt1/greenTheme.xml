@@ -1,0 +1,33 @@
+<CustomTheme
+    basePaletteColor="#3BB139"
+    vibrancy="0"
+    hueTorsion="0"   
+    darker70="#020401"   
+    darker60="#121C0E"
+    darker50="#192E16"
+    darker40="#1D3C1A"
+    darker30="#224A1E"
+    darker20="#265922"
+    darker10="#2A6726"
+    primary="#2E772A"
+    lighter10="#32872E"
+    lighter20="#359732"
+    lighter30="#39A736"
+    lighter40="#4BB645"
+    lighter50="#6EC264"
+    lighter60="#8CCE81"
+    lighter70="#A8DA9F"
+    lighter80="#C4E6BC"
+>  
+  <AppHeaderColors
+    background="#000000" 
+    foreground="#FFFFFF" 
+    backgroundHover="#313131" 
+    foregroundHover="#FFFFFF"
+    backgroundPressed="#494949"
+    foregroundPressed="#FFFFFF"
+    backgroundSelected="#717171" 
+    foregroundSelected="#FFFFFF"  
+  />
+</CustomTheme>
+
