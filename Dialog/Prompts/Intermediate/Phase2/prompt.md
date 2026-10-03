@@ -1,0 +1,1 @@
+it doesn't look like a tree. Th eproject should be shown as a tree. The text should be aligned to the left. Use arrows/chevron to expand/close nodes.  

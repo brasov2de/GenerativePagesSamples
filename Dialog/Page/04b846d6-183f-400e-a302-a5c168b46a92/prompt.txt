@@ -1,0 +1,6 @@
+﻿Conversation with 5 prompts:
+1. Create a responsive Fluent UI 9 project hierarchy page with depth-colored project rows and visually distinct inline milestones. Search projects and milestones. Accept a project ID; when scoped, use Xrm.WebApi FetchXML operator under to show the selected project and its descendants. In dialog mode, allow selecting a project, milestone, or both and send the selection or cancel result to the opener. Use only the existing cr7a1_project and cr7a1_milestone tables; do not create schema.
+2. Make the project list read visually as a nested tree: align labels to the left, replace text expand/collapse controls with chevrons, add visible child indentation/connectors, and show a milestone icon before milestone names.
+3. Replace the project hierarchy FetchXML query with DataAPI project queries; render independent projects with related milestones as children; gate OK/Cancel dialog actions on isDialog and return picker output via dataApi.setPageOutput.
+4. After setting dialog output, call Xrm.Navigation.navigateBack so OK and Cancel close the model-driven dialog.
+5. Return the owning project with milestone picks, clear milestone selection for project-only picks, and add a New milestone form button with the project prefilled and refresh after form closure.
